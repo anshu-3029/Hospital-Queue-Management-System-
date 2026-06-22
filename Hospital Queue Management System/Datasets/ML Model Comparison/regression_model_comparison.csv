@@ -1,6 +1,0 @@
-Model,MAE,RMSE,R2
-XGBoost,11.826,17.235,0.9362
-Gradient Boosting,11.922,17.381,0.9351
-Random Forest,12.554,18.301,0.928
-SVR,16.566,23.793,0.8783
-Linear Regression,20.819,28.037,0.831
