@@ -1,0 +1,33 @@
+# Smart Hospital Queue & Resource Load Prediction System  v2.0
+# Python >= 3.9 recommended
+
+# ── Web Framework ──────────────────────────────────────────────────────
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# ── Database ───────────────────────────────────────────────────────────
+# SQLite ships with Python's standard library — no extra install needed.
+# For production at scale, swap to PostgreSQL with psycopg2:
+#   psycopg2-binary>=2.9.0
+#   SQLAlchemy>=2.0.0
+
+# ── ML Core ────────────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+lightgbm>=4.0.0
+catboost>=1.2.0
+joblib>=1.3.0
+
+# ── Hyperparameter Tuning ──────────────────────────────────────────────
+optuna>=3.3.0
+
+# ── Visualisation (training scripts only) ─────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Utilities ──────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+gunicorn>=21.2.0          # production server (Linux / macOS)
+# waitress>=3.0.0         # production server (Windows alternative)
